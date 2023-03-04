@@ -1,0 +1,161 @@
+/* reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global styles */
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(b.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: 'Inter', sans-seri
+}
+.container{
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* navbar styles */
+
+.navbar-menu a{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.04s;
+}
+.navbar-menu a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+/* intro styles */
+.intro {
+    background-image: url('coffee.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 6rem 2rem;
+    text-align: center;
+    color: #fff;
+}
+
+.intro h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.intro p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.intro button {
+    background-color: #f2a900;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 2px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.intro button:hover {
+    background-color: #fff;
+    color: #1c1c1c;
+}
+
+/* menu styles */
+.menu {
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.menu-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.menu-item p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.menu-item span {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+/* about styles */
+.about {
+    background-color: #f2f2f2;
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* contact styles */
+.contact {
+    padding: 6rem 2rem;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color: #fff;
+}
